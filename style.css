@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.profile_img {
+  border-radius: 50%;
+  border: 5px solid #3a4660
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+h1, h2, h3 {
+  color: #3a4660;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: underline;
+    line-height: 1;
+}
+
+body {
+  background-color: #e6ccb6;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+ul {
+  padding: 5;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+
+i {
+  color: #3a4660;
+}
+
+.infos {
+  background-color: white;
+    padding: 1px;
+    width: 490px;
+    margin: 19px auto;
+    border-radius: 23px;
+    border: 1px solid #3a4660;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.317);
+}
+
+.lewagon_button {
+	box-shadow: 0px 0px 0px 2px #3a4660;
+	background-color:#3a4660;
+	border-radius:10px;
+	border:1px solid #252b3d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	padding: 9px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  transition: .3s;
+}
+.lewagon_button:hover {
+	background-color:#476e9e;
+  transition: .3s;
+}
+.lewagon_button:active {
+	position:relative;
+	top:1px;
+}
